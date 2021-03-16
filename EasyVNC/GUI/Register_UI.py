@@ -274,7 +274,7 @@ class RegisterForm(QtWidgets.QWidget):
     def signIn(self):
         self.close()
         self.window = QtWidgets.QMainWindow()
-        self.ui = GUI.Login_UI.LoginForm()
+        self.ui = EasyVNC.GUI.Login_UI.LoginForm()
         self.ui.show()
 
     def insert_data(self):
