@@ -1,0 +1,5 @@
+include README.txt
+include setup.py
+include LICENCE.txt
+include run.py
+recursive-include EasyVNC *
